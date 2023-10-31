@@ -1,0 +1,49 @@
+body {
+
+    font-style: sans-serif;
+    background-image: url("../rework/img/pexels-photo-289737\ \(1\).webp"); 
+    background-size: cover;
+    margin:0 auto;
+    padding: 0;
+    height: 100vh;
+}
+h2 {
+    font: italic bold 30px arial, sans-serif;
+    font-size: large;
+    text-align: center;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+    
+}
+
+.box{
+
+    width: 250px;
+    height: 500px;
+    background: rgba(0, 208, 255,0.2);
+}
+
+input{
+    display: flexbox;
+    padding: 2px;
+    align-items: center;
+
+}
+label{
+    display: block;
+    padding: 10px;
+    align-items: baseline;
+
+}
+
+img{
+    max-height: 500px;
+    max-width: 1000px;
+    text-align: center;
+
+}
